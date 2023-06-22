@@ -1,10 +1,9 @@
-import { useState } from 'react';
 import { Cell } from '../components/Cell';
-import styles from './index.module.css';
 import { useGame } from '../hooks/useGamek';
+import styles from './index.module.css';
 
 const Home = () => {
-  const {board, onClick} = useGame ();
+  const { board, onClick } = useGame();
   return (
     <div className={styles.container}>
       <div className={styles.board}>

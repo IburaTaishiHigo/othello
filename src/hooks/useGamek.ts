@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export const useGame = () => {
   const [turnColor, setTurnColor] = useState(1);
@@ -59,5 +59,5 @@ export const useGame = () => {
       setBoard(newBoard);
     }
   };
-  return {board, onClick}
-}
+  return { board, onClick };
+};
