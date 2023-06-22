@@ -124,19 +124,3 @@
   font-size: 0;
   flex-wrap: wrap;
 }
-
-.cell {
-  border: 1px solid black;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.stone {
-  width: 56px;
-  height: 56px;
-  border-radius: 30px;
-  background-color: white;
-}
